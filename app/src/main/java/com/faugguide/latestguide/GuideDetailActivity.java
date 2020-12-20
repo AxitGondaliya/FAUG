@@ -13,7 +13,7 @@ import com.synnapps.carouselview.ImageListener;
 
 public class GuideDetailActivity extends AppCompatActivity {
     Intent intent_act;
-    String title;
+    String title_t;
     CarouselView imageSlider;
     int[] pages;
 
@@ -23,14 +23,14 @@ public class GuideDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_guide_detail);
 
         intent_act = getIntent();
-        title = intent_act.getStringExtra("title_guide");
+        title_t = intent_act.getStringExtra("title_guide");
         pages = intent_act.getIntArrayExtra("pages");
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.guide_detail_toolbar);
         imageSlider = findViewById(R.id.slider);
 
         setSupportActionBar(toolbar);
-        setTitle(title);
+        setTitle(title_t);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
