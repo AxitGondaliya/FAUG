@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CD0101</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#CD0101</color>
+
+    <color name="actionbar_back">#CD0101</color>
+
+    <color name="stausbar">#de424d</color>
+
+    <color name="infoPageBackgroundColor">#ffffff</color>
+    <color name="color_change">#5d733d</color>
+
+    <dimen name="top_between_para">10dp</dimen>
+
+    <dimen name="preview_side_margin">16dp</dimen>
+    <dimen name="margin_from_tray_to_name">16dp</dimen>
+    <dimen name="sticker_pack_details_image_size">80dp</dimen>
+    <dimen name="sticker_pack_details_image_padding">8dp</dimen>
+    <dimen name="fading_edge_length">8dp</dimen>
+    <dimen name="sticker_pack_list_item_preview_image_size">50dp</dimen>
+    <dimen name="sticker_pack_list_item_preview_image_padding">4dp</dimen>
+    <dimen name="sticker_pack_list_item_row_dot_horizontal_padding">4dp</dimen>
+
+</resources>

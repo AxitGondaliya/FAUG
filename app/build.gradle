@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+
+android {
+    aaptOptions {
+        noCompress "webp"
+    }
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.faugguide.latestguide"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        def contentProviderAuthority = applicationId + ".stickercontentprovider"
+        buildConfigField("String",
+                "CONTENT_PROVIDER_AUTHORITY",
+                "\"${contentProviderAuthority}\"")
+        manifestPlaceholders = [contentProviderAuthority: contentProviderAuthority]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+}
+task checkDebug {
+    doLast {
+        println("checkDebug")
+        if (android.defaultConfig.applicationId.startsWith("com.whatsapp")) {
+            throw new GradleException("applicationId in defaultConfig cannot start with com.whatsapp, please change your applicationId in app/build.gradle");
+        }
+        checkApplicationIdInDebug()
+    }
+}
+
+private void checkApplicationIdInDebug() {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def ignoreApplicationIdCheck = properties.getProperty('ignoreApplicationIdCheck')
+    if (ignoreApplicationIdCheck == null) {
+        if (android.defaultConfig.applicationId.equals("com.example.samplestickerapp")) {
+            throw new GradleException("Your applicationId is currently com.example.samplestickerapp, please change your applicationId to a different string in app/build.gradle in line 16");
+        }
+    } else {
+        println("application id check ignored")
+    }
+}
+
+task checkRelease {
+    doLast {
+        println("checkRelease")
+        if (android.defaultConfig.applicationId.startsWith("com.example")) {
+            throw new GradleException("applicationId in defaultConfig cannot start with com.example, please change your applicationId in app/build.gradle");
+        }
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    println(task.name)
+    if (task.name.contains("assembleDebug")) {
+        task.dependsOn checkDebug
+    }
+    if (task.name.contains("assembleRelease")) {
+        task.dependsOn checkRelease
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+    implementation 'com.synnapps:carouselview:0.1.5'
+
+    implementation 'com.facebook.fresco:fresco:2.3.0'
+    implementation 'com.facebook.android:audience-network-sdk:5.4.1'
+    implementation 'com.facebook.fresco:webpsupport:2.2.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.facebook.fresco:animated-webp:2.2.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.facebook.fresco:animated-base:2.2.0'
+}

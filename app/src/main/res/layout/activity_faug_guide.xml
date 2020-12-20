@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacground"
+    tools:context=".FaugGuideActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_toolbar_guid"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_bolly_star_AK"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_guide_tv"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="About FAUG Game App"
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_pubg_animator"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_guide_tv"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="FAUG game App Download (PUBG Alternative)"
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_new_bug"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_guide_tv"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Fearless and United Guard FAU - G News Bugs"
+                android:textColor="@android:color/black"
+                android:textSize="14dp" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_pm_said_self_reliance"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="60dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:background="@drawable/background_guide_tv"-->
+            <!--                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:inputType="textMultiLine"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Akshay Kumar gave the answer to PUBG, faug, said PM Modi's self-reliance Abhiyan"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14dp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_atmanirbhar"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:background="@drawable/background_guide_tv"-->
+            <!--                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="Atmanirbhar Bharat"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14dp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_about_faug"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:background="@drawable/background_guide_tv"-->
+            <!--                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"-->
+            <!--                android:gravity="center_vertical"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:text="About FAU - G Game App"-->
+            <!--                android:textColor="@android:color/black"-->
+            <!--                android:textSize="14dp" />-->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_toolbar_guid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/guide_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_toolbar"
+            android:theme="@style/ToolbarTheme"
+            app:titleTextColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="FAU - G Guide"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

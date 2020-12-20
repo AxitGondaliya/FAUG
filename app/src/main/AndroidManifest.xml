@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.faugguide.latestguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity
+            android:theme="@style/faug_detail"
+            android:name="com.faugguide.latestguide.sticker.Pubg_ALL_of_Pack_Grid_View_list_Game" />
+
+        <activity
+            android:theme="@style/faug_detail"
+            android:name="com.faugguide.latestguide.sticker.Pubg_ALL_Pack_Info_Details_Game"
+            android:parentActivityName=".sticker.Pubg_ALL_of_Pack_Grid_View_list_Game"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sticker.Pubg_ALL_of_Pack_Grid_View_list_Game" />
+        </activity>
+
+        <activity
+            android:name="com.faugguide.latestguide.sticker.Pubg_All_Bage_Pack_Infomation_game"
+            android:parentActivityName=".sticker.Pubg_ALL_Pack_Info_Details_Game"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sticker.Pubg_ALL_Pack_Info_Details_Game" />
+        </activity>
+
+        <activity
+            android:theme="@style/faug_detail"
+            android:name="com.faugguide.latestguide.sticker.Set_Sticker_To_Whtspp_Second_Activity" />
+
+
+        <provider
+            android:name="com.faugguide.latestguide.sticker.Pubg_ALL_Content_Rating_Provider_Game"
+            android:authorities="${contentProviderAuthority}"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.whatsapp.sticker.READ" />
+
+
+        <activity
+            android:name=".TipsTricksActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".RubbyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".VehicalActivity"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".WeaponsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".GuideDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".FaugGuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/faug_detail" />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

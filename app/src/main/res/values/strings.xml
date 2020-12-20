@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">FAU-G Advice</string>
+
+    <string name="diam1">★ Become the best with these tips</string>
+    <string name="diam10">It\'s not very smart to explore these areas from the beginning, but if we\'re halfway through the game, there will always be things to take. Surely there will be fewer players lurking around to eliminate us.</string>
+    <string name="diam11">In places like this, it\'s also common to find kits to improve bulletproof vests. Pay attention as you explore because, although it\'s okay to have a level one vest, it\'s highly recommended to upgrade it soon. The last players will always have a powerful weapon.</string>
+
+    <string name="diam12">★ Pay attention to the safe area</string>
+    <string name="diam13">The safe zone is described by a white circle, which we can see both on the map and in the mini-map. Inside this zone we will be safe, since, outside of it, the radioactive storm will take away our life with the passage of time.</string>
+    <string name="diam14">If we pay attention to the safe area, we will often see players running for their lives to get away from the storm, before it\'s too late. Situations like this are a perfect opportunity to eliminate opponents.</string>
+
+    <string name="diam15">★ Look at the mini-map</string>
+    <string name="diam16">The mini-map is very important to avoid a whole series of threats to our survival.</string>
+    <string name="diam17">If you hear gunshots close to you, look for the red triangles in the mini-map, as they will indicate the origin of the shots. This way you will know where there are enemies nearby. At other times, we\'ll hear explosions and vehicles driven by players. Both will be marked by yellow or red dots around the mini-map. That will tell us which direction the sound is coming from.</string>
+    <string name="diam18">In addition to radiation, there are also danger zones. These zones are marked by red circles with the label Danger. After a few seconds, a bomber will destroy that place, so get away as soon as possible! UAV drones reveal the position of players within the yellow circle. Never expose yourself to others, but stay close to see where the revealed players are.</string>
+
+    <string name="diam2">In FAUG we have many tools at our disposal to become the last survivor standing, but you must also know how to use them. Discover how to become the best FAUG player with these tips.</string>
+
+    <string name="diam19">★ Take cover</string>
+    <string name="diam20">All over the map there are buildings, walls, containers, stones, trees, etc. Use them as cover! The worst thing we can do in this game is be exposed. While you\'re on the move, try to protect yourself with the environment so that you don\'t fall out of the way in the face of observant players.</string>
+    <string name="diam21">However, that means we have to move carefully. We\'ll never know if behind that wall, or that wall of the building, hides an opponent with a shotgun, ready to get us out of the game with two surprise shots.</string>
+
+    <string name="diam22">★ Use vehicles with care</string>
+    <string name="diam23">The vehicles are used to move quickly to other places, where there is quality loot, and also to pass over the absent-minded players that we find on the road.</string>
+    <string name="diam24">If we make too much noise, the other players will be able to hear us. For that reason, use cars, vans and motorcycles carefully, so as not to reveal our position.</string>
+
+    <string name="diam3">★ Choose the right landing site</string>
+    <string name="diam4">Choosing the landing site is only the first step to victory. Although it may seem trivial, it\'s not; determining where you\'ll start will allow you to decide whether to start the game right or not. It\'s important to choose a place isolated from other players, near a city but not so close to it.</string>
+    <string name="diam5">Therefore, the best option is to fall out of towns and cities, observe where others fall and then enter to explore. It is fundamental not to expose ourselves too much until we are properly equipped, especially when we move around places with loot in quantity and quality, where many times there will be players.</string>
+
+    <string name="diam6">★ Get equipment</string>
+    <string name="diam7">As soon as we land, the first thing we have to do is to find weapons, protection, first aid kits, among other things. At the beginning of the game, the best thing to do is to grab everything we can find, as we can always improve and change the equipment.</string>
+
+    <string name="diam8">★ Explore military sites</string>
+    <string name="diam9">If there are no enemies in sight, it\'s a good idea to explore sites like watchtowers, cargo containers, trenches or military tents. There are usually good loot in these kinds of places, both in weaponry and supplies.</string>
+
+    <string name="aa">★ An94 ★</string>
+    <string name="a">This is FAUG\'s most recent assault rifle. It behaves like a kind of M4A1 but with worse features, except for damage. It\'s a good choice if you opt for medium distance combat, as you\'ll be able to do good damage. Keep in mind that you can add all kinds of extras except silencers, so it will always be a noisy weapon in your hands. \10\10Use the AN94 if you can\'t find a more powerful assault rifle.</string>
+
+    <string name="aaa">★ Sports Car ★</string>
+    <string name="aaaa">This car has a very clear advantage over the rest: it is the fastest vehicle in FAUG. It\'s true that it can\'t withstand as many blows as others, but the top speed at which it reaches attracts all players who are speed lovers. \10\10Don\'t hesitate to drive one of these cars as soon as you find one, especially if you\'re away from the safe zone. If you find this car, you\'ll be able to explore with peace of mind, knowing that in a matter of a minute you\'ll be halfway across the map. \10\10Curious detail: as the sports car is very fast, if you hit a player who is on foot, he will fly away and will have extra damage from the fall.</string>
+
+    <string name="bb">★ M4A1 ★</string>
+    <string name="b">The M4A1 is one of the most famous weapons in the game and the most powerful assault rifle. Add to that its good damage and precision, and it\'s no wonder that this weapon is the favorite of many players. In addition, it\'s often easy to find during a game, especially in military locations. \10\10Its great advantage is that we can add all kinds of extras, and it is perfect for both novices and experienced players.</string>
+
+    <string name="bbb">★ Monster Car ★</string>
+    <string name="bbbb">The Monster Truck is the biggest and toughest vehicle. It\'s hard to destroy with gunshots and grenades, but the downside is that it\'s a bit slow. As it is immense, if you manage to reach an enemy with this vehicle, it is usual to eliminate it from a single charge.\10\10One thing to keep in mind is that you\'ll almost certainly never find this 4x4 at the beginning of the game. As a general rule, Monster Truck will only appear at a few points on the map after being launched from an airplane. Watch out for the skies!</string>
+
+    <string name="cc">★ M14 ★</string>
+    <string name="c">Armed with the highest damage and precision of any assault rifle, the M14 is a lethal weapon in the hands of skilled players. In range, it\'s only one point behind the M4A1, so it\'s useful at long range. It is true that it has the lowest shooting cadence in the list, but it is possible to add all kinds of accessories to turn the weapon into a more powerful one. \10\10 It is a weapon aimed at experienced players, and has a smaller magazine compared to the rest.</string>
+
+    <string name="ccc">★ Moto ★</string>
+    <string name="cccc">This motorcycle has a perfect combination of speed and handling, which is why many players prefer it to other vehicles. However, it has the disadvantage of exposing the rider, so if you don\'t go fast, you\'ll be an easy target to hit. \10\10The good news is that, because the motorcycle is small, it allows you to move more quickly and pass narrow places without a lot of problems.</string>
+
+    <string name="dd">★ Ak ★</string>
+    <string name="d">The AK is another of the best-known weapons not only in this game, but in the world of Battle Royales and shooters. The features do justice to its fame, as it is one of the rifles that have more damage and range. The negative point is that it is the least accurate of the list although, luckily, it can be solved with extras. \10\10 If you\'re patient with shots, two or three bullet bursts, you can eliminate enemies quickly.</string>
+
+    <string name="ddd">★ Ambhibian ★</string>
+    <string name="dddd">If you see this vehicle and you need to cross a river, don\'t even think about it: use this amphibian. Driven by the water, this four-wheeled bike gives you total movement versatility across both FAUG maps.\10\10As you might expect, it\'s often found near areas where there\'s a river nearby. If you want to explore on a small island or something like that, do it without fear, as you can return to the main terrain without being exposed on the connecting bridges. Many are clever and wait on the other side of the bridge!\10\10Also, as there is room for two people... the best vehicle to move freely in Duo mode!</string>
+
+    <string name="tips1">★ Learn how to win gold and Rubby</string>
+    <string name="tips2">In FAUG you don\'t just want to win, you want to show off unique weapon skins and features. To do this, you need to accumulate gold and Rubby by playing or paying with real money. Due to the amount of options, events and menus, many of us may feel confused.</string>
+    <string name="tips3">Discover the methods of winning gold and Rubby, and how to spend them to unlock various items in the game. We have compiled the 5 ways to win gold and Rubby, supported by images to help you in the best possible way.</string>
+
+    <string name="tips4">★ Play games</string>
+    <string name="tips5">We will get a sum of gold just for participating, so entering a game will always be a good time invested. If you want to earn more money, it\'s good to practice and work hard, as the game rewards survival time, final position, eliminations and headshots. In addition, by playing games you will be able to complete daily challenges.</string>
+    <string name="tips6">There are a variety of different challenges, especially if you have purchased Elite Pass (only unlocked with real money). When you complete a challenge, you\'ll receive one or more explosive medals. The tasks are usually to play a certain number of minutes, use specific weapons, reach a specific number of eliminations or end up in high positions.</string>
+    <string name="tips7">Explosive medals are used for the Fire Pass. On this site, you\'ll unlock items as you get more medals. If you purchase Elite Pass, you\'ll get better rewards in the form of gold, Rubby and even skins. Otherwise, you can limit yourself to the Free Pass, but the rewards will be much scarcer.</string>
+
+    <string name="tips8">★ Enter the game every day</string>
+    <string name="tips9">This is a simple and safe way to earn gold, but in no case will we get Rubby just for entering. The daily rewards always come out when you enter the game and, as a general rule, you will get 350 gold each week. It\'s a very easy way to accumulate this virtual money, so try to get into FAUG every day.</string>
+
+    <string name="tips10">★ Open free boxes and participate in Gold Royale</string>
+    <string name="tips11">Every day we\'ll have a free box in the game store. To find this box, go to the Normal section and click on the Offer of the day section.</string>
+    <string name="tips12">There is also the famous Luck Royale, which we can access from the main menu. There we test our luck. However, you can participate in Gold Royale with so-called normal vouchers or by spending gold. If we only use normal vouchers for Gold Royale, the first two rewards for weekly spins usually contain 100 gold coins each. To purchase these rewards, click on the red colored bags to the right of Gold Royale.</string>
+    <string name="tips13">Finally, you\'ll sometimes get Lucky Draw, which is just an extra prize the game awards at random. Press one of the three cards and you\'ll get another reward with minimal effort. It usually gives little gold, and it\'s also possible to get memory fragments, among other items.</string>
+
+
+<!--    string from pubg project-->
+    <string name="pubg_add_to_whatsapp_">Add to WhatsApp</string>
+    <string name="add_button_content_description">Add sticker pack to WhatsApp</string>
+
+
+    <string name="pubg_swap">SWIPE TO START</string>
+    <string name="pubg_rate_us">Rate Us</string>
+
+    <string name="details_pack_already_added">Sticker pack added to WhatsApp</string>
+    <string name="info_send_email_to_prompt">Send email with</string>
+    <string name="pubg_add_pack_fail_prompt_update_whatsapp">Sticker pack not added. If you\'d like to add it, make sure you update to the latest version of WhatsApp.</string>
+
+    <string name="pubg_tray_image_content_description">Sticker Pack Tray Image</string>
+    <string name="error_adding_sticker_pack">Could not add this sticker pack. Please install the latest version of WhatsApp before adding sticker pack</string>
+    <string name="error_message">Error: %s \nSee logcat for stack trace.</string>
+    <string name="title_validation_error">Error with the pack</string>
+    <string name="pubg_info_screen_tray_icon">Tray icon</string>
+
+    <string name="pubg_more_info_button">More info about sticker pack</string>
+    <string name="pubg_add_pack_fail_prompt_update_play_link">Update</string>
+    <string name="pubg_cannot_find_play_store">Google Play is not installed on the device.</string>
+    <string name="pubg_str_gift">gift</string>
+
+
+    <string name="privacy_policy">Privacy policy</string>
+
+    <string name="pubg_send_email">Send email</string>
+
+    <string name="pubg_title_activity_sticker_packs_list">Sticker Packs</string>
+    <string name="dot">•</string>
+
+    <string name="title_activity_sticker_pack_details_single_pack">Sticker Pack</string>
+    <string name="title_activity_sticker_pack_details_multiple_pack">Sticker details</string>
+    <string name="view_webpage">View webpage</string>
+
+    <string name="pubg_title_activity_sticker_pack_info">Info</string>
+</resources>
